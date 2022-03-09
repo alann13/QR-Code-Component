@@ -1,0 +1,50 @@
+@import url('./reset.css');
+
+:root {
+  --darkNavy: #1f314f;
+  --grey: #7d889e;
+  --lightgrey: #d5e1ef;
+  --white: white;
+
+  --default-radius: 20px;
+}
+
+body {
+  background: var(--lightgrey);
+  font-family: 'Outfit', sans-serif;
+}
+
+main {
+  height: inherit;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+h1 {
+  color: var(--darkNavy);
+  font-size: 1.375rem;
+  font-weight: bold;
+  line-height: 1.3;
+  padding: 1rem 0;
+}
+
+p {
+  color: var(--grey);
+  font-size: 0.9375rem;
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+}
+
+.qr-card {
+  background: var(--white);
+  border-radius: var(--default-radius);
+  box-shadow: 0 4px 4px 0 rgb(0, 0, 0, 10%);
+  max-width: 20rem;
+  padding: 1rem 1rem 2rem;
+  text-align: center;
+}
+
+.qr-card img {
+  border-radius: var(--default-radius);
+}
